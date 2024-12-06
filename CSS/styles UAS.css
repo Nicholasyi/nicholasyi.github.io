@@ -1,7 +1,9 @@
 .body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins';
 }
+
 .hero {
+    font-family: 'Poppins';
     background: url("../Untitled\ design.png") no-repeat center center/cover;
     height: 100vh;
     color: black;
@@ -59,10 +61,10 @@ footer a {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* .card:hover {
+.card:hover {
     transform: translateY(-10px);
     transition: all 0.3s ease-in-out;
-} */
+}
 
 .card-title {
     font-weight: 600;
@@ -99,3 +101,20 @@ footer a {
 #splash-screen.hidden {
     transform: translateY(-100%);
 }
+
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+}
+
+#about, 
+#about h2,
+#about p,
+#about ul,
+#projects,
+#projects h2,
+#projects p,
+#projects .card-title,
+#projects .card-text {
+    font-family: 'Poppins', sans-serif;
+}
+
